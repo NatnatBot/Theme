@@ -116,7 +116,7 @@
 
     },
     "images": {
-        "background": "http://prntscr.com/8bgxhi",
+        "background": "http://i.imgur.com/HG8mqaM.png",
         "booth": "",
         "playback": "http://i.imgur.com/dwBIvBo.jpg",
     "icons":{
