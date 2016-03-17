@@ -1,7 +1,7 @@
 {
-    "room":                     "Radiant Music",
-    "author":                   "Origin",
-    "icon":                     "https://cdn.radiant.dj/rcs/icons/radiant/logo.png",
+    "room":                     "Balkan Power",
+    "author":                   "XaideAtomic",
+    "icon":                     "http://www.fordesigner.com/imguploads/Image/cjbc/zcool/png20080526/1211813364.png",
     "css":                      "https://cdn.radiant.dj/rcs/rs_room.css",
     "rules": {
         "allowAutorespond":     true,
@@ -27,7 +27,7 @@
         "user":                 "#8B92A3"
     },
     "images": {
-        "background":           null,
+        "background":           "http://i.imgur.com/mqzhUCs.png"
         "playback":             null,
         "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
         "ambassador":           "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
