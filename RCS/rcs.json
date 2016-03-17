@@ -28,17 +28,18 @@
         "user":                 "#8B92A3"
     },
     "images": {
-        "background":          "http://http://i.imgur.com/k9zVa92.png"
-        "playback":             null,
-        "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
-        "ambassador":           "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
-        "host":                 "https://cdn.radiant.dj/rcs/icons/radiant/host.png",
-        "cohost":               "https://cdn.radiant.dj/rcs/icons/radiant/cohost.png",
-        "manager":              "https://cdn.radiant.dj/rcs/icons/radiant/manager.png",
-        "bouncer":              "https://cdn.radiant.dj/rcs/icons/radiant/bouncer.png",
-        "rdj":                  "https://cdn.radiant.dj/rcs/icons/radiant/residentdj.png",
-        "subscriber":           null,
-        "silversubscriber":     "https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
+        "background": "http://http://i.imgur.com/k9zVa92.png",
+        "playback": null,
+        "admin": null,
+        "ambassador": null,
+        "host": null,
+        "cohost": null,
+        "manager": null,
+        "bouncer": null,
+        "rdj": null,
+        "subscriber": null,
+        "silversubscriber": null
+    },
     },
     "autocomplete": [],
     "emotes": {
