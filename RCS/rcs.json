@@ -1,7 +1,9 @@
+
 {
-    "room": "",
-    "author": "Tessi Tess & THEFALSE",
-    "css": "https://rawgit.com/THEFALSE/MFE/master/style.css",
+    "room": "BalkanPower",
+    "author": "XaideAtomic",
+    "icon": "http://icons.iconarchive.com/icons/3xhumed/mega-games-pack-38/256/Prey-logo-1-icon.png",
+    "css": "https://code.radiant.dj/radiant.json",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
@@ -14,19 +16,19 @@
     },
     "ccc": {
         "admin": null,
-        "ambassador": "#89BE6C",
-        "host": "#5DB4FF",
-        "cohost": "#5DB4FF",
-        "manager": "#5DB4FF",
-        "bouncer": "#5DB4FF",
-        "rdj": "#5DB4FF",
-        "subscriber": "#777F92",
+        "ambassador": null,
+        "host": "#1409E4"
+        "cohost": null,
+        "manager": null,
+        "bouncer": null,
+        "rdj": null,
+        "subscriber": null,
         "silversubscriber": null,
         "friend": null,
-        "user": "#777F92"
+        "user": null
     },
     "images": {
-        "background": "http://i.imgur.com/k9zVa92.png",
+        "background": "http://i.imgur.com/k9zVa92.png"
         "playback": null,
         "admin": null,
         "ambassador": null,
@@ -36,31 +38,9 @@
         "bouncer": null,
         "rdj": null,
         "subscriber": null,
-        "silversubscriber": null
+        "silversubscriber": null,
     },
     "emotes": {
-        "mfe": "http://i.imgur.com/RR8MUPC.png",
-        "mrfalse": "http://puu.sh/jFGe8/28aa802296.png",
-        "mrfalse2": "http://i.imgur.com/WOx2kL9.png",
-        "danny": "http://i.imgur.com/hHi3NEg.png",
-	"killman":"http://i.imgur.com/Ohh0FOf.png",
-	"siesbicho":"http://i.imgur.com/9oSfhE5.png",
-	"mfebot":"http://i.imgur.com/HXCLejG.png",
-	"prasiak":"http://i.imgur.com/afGTQvQ.png",
-	"rohlik":"http://i.imgur.com/G8tPySf.png",
-	"simco":"http://i.imgur.com/NIBxq2R.png",
-	"mfe2": "http://i.imgur.com/Qxtvhel.png",
-	"mfe3": "http://i.imgur.com/i8CyyAo.png",
-	"mfe4": "http://i.imgur.com/x3e4M8d.png",
-	"samik": "http://i.imgur.com/4LIXaui.png",
-	"doit": "http://i.imgur.com/pOTQbag.png",
-	"mfehype": "http://i.imgur.com/KcR60XV.png",
-	"mfefamily": "http://i.imgur.com/RjWYKIQ.png",
-	"mfepurple": "http://i.imgur.com/uhz6Wxs.png",
-	"mfeblue": "http://i.imgur.com/9yhPdCS.png",
-	"mfegreen": "http://i.imgur.com/RRZRwv3.png",
-	"elissha": "http://i.imgur.com/Qn8QbR9.gif",
-	"elissha2": "http://i.imgur.com/pbMXzcW.gif",
-	"tigerthuglife": "http://i.imgur.com/0GihlO6.png"
+    	"emote_name": null
     }
 }
