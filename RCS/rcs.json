@@ -1,7 +1,7 @@
 {
     "room":                     "Radiant Music",
     "author":                   "Origin",
-    "icon":                     "http://icons.iconarchive.com/icons/3xhumed/mega-games-pack-38/256/Prey-logo-1-icon.png",
+    "icon":                     "http://icons.iconarchive.com/icons/3xhumed/mega-games-pack-38/128/Prey-logo-1-icon.png",
     "css":                      "https://cdn.radiant.dj/rcs/rs_room.css",
     "rules": {
         "allowAutorespond":     true,
