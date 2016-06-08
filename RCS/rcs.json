@@ -2,7 +2,7 @@
     "room":                     "BalkanPower",
     "author":                   "NextExit",
     "icon":                     null,
-    "css":                     null,
+    "css":                      null,
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
