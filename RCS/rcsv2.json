@@ -2,7 +2,7 @@
     "room":                     "BalkanPower",
     "author":                   "NextExit",
     "icon":                     null,
-    "css":                      "https://rawgit.com/NatnatBot/Theme/master/RCS/ccs.css",
+    "css":                      "https://rawgit.com/NatnatBot/Theme/master/RCS/ccsv2.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
