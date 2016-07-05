@@ -1,5 +1,5 @@
 {
-    "room":                     "Chill Time ღ",
+    "room":                     "BalkanPower",
     "author":                   "NextExit",
     "icon":                     null,
     "css":                      "https://rawgit.com/NatnatBot/Theme/master/RCS/ccsv2.css",
@@ -16,7 +16,7 @@
     "ccc": {
         "admin":                "#42A5DC",
         "ambassador":           "#84B423",
-        "host":                 "#FF9B00",
+        "host":                 "#00A8EA",
         "cohost":               "#FF9B00",
         "manager":              "#2EFEF7",
         "bouncer":              "#DF01D7",
@@ -27,7 +27,7 @@
         "user":                 "#8B92A3"
     },
     "images": {
-        "background":           "https://cdn.radiant.dj/rcs/bg/2k15island.jpg",
+        "background":           "http://i.imgur.com/jQqG764.jpg",
         "playback":             null,
         "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
         "ambassador":           "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
