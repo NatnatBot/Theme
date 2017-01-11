@@ -20,7 +20,7 @@
         "cohost":               "#DA00FF",
         "manager":              "#2EFEF7",
         "bouncer":              "#DF01D7",
-        "rdj":                  "#5DB4FF",
+        "rdj":                  "#7BC1D1",
         "subscriber":           "#A1A6B3",
         "silversubscriber":     "#A1A6B3",
         "friend":               "#B35D88",
@@ -35,7 +35,7 @@
         "cohost":               "https://cdn.radiant.dj/rcs/icons/radiant/cohost.png",
         "manager":              "https://cdn.radiant.dj/rcs/icons/radiant/manager.png",
         "bouncer":              "https://cdn.radiant.dj/rcs/icons/radiant/bouncer.png",
-        "rdj":                  "https://cdn.radiant.dj/rcs/icons/radiant/residentdj.png",
+        "rdj":                  "compact-disc.png",
         "subscriber":           null,
         "silversubscriber":     "https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
     },
