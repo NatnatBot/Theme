@@ -1,5 +1,5 @@
 {
-    "room":                     "Chill Time ღ",
+    "room":                     "Chill Time ",
     "author":                   "NextExit",
     "icon":                     null,
     "css":                      "https://rawgit.com/NatnatBot/Theme/master/RCS/ccsv2.css",
@@ -18,7 +18,7 @@
         "ambassador":           "#84B423",
         "host":                 "#FF9B00",
         "cohost": "#F3508F",
-        "manager": "#F3508F",
+        "manager": "#0191ff",
         "bouncer": "#F3508F",
         "rdj": "#5DB4FF",
         "subscriber": "#A1A6B3",
