@@ -11,7 +11,7 @@
         "allowSmartVote":       true,
         "allowEmotes":          true,
         "allowShowingMehs":     true,
-        "forceSmartVote":       false
+        "forceSmartVote":       false,
     },
     "ccc": {
         "admin":                "#42A5DC",
