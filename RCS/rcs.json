@@ -29,18 +29,18 @@
     "images": {
         "background":          "https://cdn.radiant.dj/rcs/bg/2k14tc.jpg",
         "playback":             null,
-        "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
-        "ambassador":           "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
+        "admin":                "http://i.imgur.com/Kjd7tgS.png",
+        "ambassador":           "http://i.imgur.com/cOjyImv.png",
         "host":                 "http://i.imgur.com/aJd4r7k.png",
-        "cohost":               "https://cdn.radiant.dj/rcs/icons/radiant/host.png",
-        "manager":              "https://chilloutmusica.github.io/cm/src/icons/manager.png",
-        "bouncer":              "https://cdn.radiant.dj/rcs/icons/radiant/bouncer.png",
-        "rdj":                  "https://cdn.radiant.dj/rcs/icons/radiant/residentdj.png",
+        "cohost":               "http://i.imgur.com/EQ5P9PK.png",
+        "manager":              "http://i.imgur.com/QH9BmW1.png",
+        "bouncer":              "http://i.imgur.com/Ppv0nLM.png",
+        "rdj":                  "http://i.imgur.com/4YBwrbr.png",
         "subscriber":           null,
-        "silversubscriber":     "https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
+        "silversubscriber":     "http://i.imgur.com/SVTl3JZ.png"
     },
     "autocomplete": [],
     "emotes": {
-        "custom_test": "https://cdn.radiant.dj/rcs/icons/test_custom.png"
+        "custom_test": "http://i.imgur.com/ciMEuu4.png"
     }
 }
