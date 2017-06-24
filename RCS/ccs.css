@@ -1,1 +1,423 @@
 #user-lists .list.staff .group{background:linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,1) 100%)!important}#footer{background:linear-gradient(to bottom,rgba(0,0,0,.25) 0,rgba(0,0,0,.75) 100%)}#playlist-button{background:linear-gradient(to bottom,#ff5cde 0,#5700ff 100%)}#app-header{background:linear-gradient(to bottom,rgba(0,0,0,.25) 0,rgba(0,0,0,.75) 100%)} 0,rgba(0,0,0,.75) 100%)}#store-button{background:linear-gradient(to bottom,red 0,#a00000 100%)}#plug-dj{background:linear-gradient(to bottom,#0268ac 0,#02225c 100%)}.header-panel-button.selected{background:linear-gradient(to bottom,rgba(255,255,255,.25) 0,rgba(255,255,255,.06) 100%)}#plug-menu{background:rgba(40,44,53,.94)!important}#plug-menu .legal{background:rgba(68,74,89,.46)!important}#settings{background:rgba(10,10,10,.89)!important}#user-lists .list .user:hover{background:linear-gradient(to right,rgba(255,118,118,0) 0,rgba(255,0,194,.27) 100%)!important}#waitlist .list .user{background:linear-gradient(to right,rgba(255,118,118,0) 0,rgba(255,0,194,.13) 100%)!important}.app-right .friends{background:none!important}#settings .header{background:rgba(28,31,37,.78)!important}@media (max-width:1600px){#room .app-right{background:linear-gradient(to right,rgba(0,0,0,.70) 0,rgba(0,0,0,1) 100%)}}#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1) {background-color:rgba(17,19,23,.32);-webkit-animation:fadein .25s;-moz-animation:fadein .25s;-ms-animation:fadein .25s;-o-animation:fadein .25s;animation:fadein .25s}#chat .emote,#chat .mention,#chat .message,#chat .moderation,#chat .skip,#chat .system,#chat .update,#chat .welcome{-webkit-animation:fadein .25s;-moz-animation:fadein .25s;-ms-animation:fadein .25s;-o-animation:fadein .25s;animation:fadein .25s}#chat .mention{font-weight:700;border-left:#7681ff 3px solid}#chat .emote .from{color:#ac76ff!important}#chat .emote{border-left:rgba(174,69,189,1) 3px solid!important;background-color:rgba(76,93,119,.22)!important}#chat-messages .emote .icon{}#chat .emote .text{font-style:normal;font-weight:bold;color:#ac76ff}#footer{background:linear-gradient(to bottom,rgba(0,0,0,.25) 0,rgba(0,0,0,.75) 100%)}#playlist-button{background:linear-gradient(to bottom,#ff5cde 0,#5700ff 100%)}.social-menu .icon-twitter,.social-menu .icon-facebook{opacity:1}#playlist-panel{background:rgba(17,19,23,.9)}#playlist-menu{background:rgba(28,31,37,.67)}#search{background:rgba(50,55,66,.58)}#search-bar{background:rgba(17,19,23,.77)}#filter-bar{background:rgba(17,19,23,.77)}#playlist-edit-button{background:rgba(85,93,112,.75)}#playlist-shuffle-button{background:rgba(68,74,89,.75)}#playlist-delete-button{background:rgba(50,55,66,.75)}#user-panel .score{background:rgba(28,31,37,.59)}#dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom{background:#222224}#dj-button.is-quit .left,#dj-button.is-leave .left,#dj-button.is-wait .left,#dj-button.is-locked .left,#dj-button.is-full .left{background:#121214;border-radius:8px}#dj-button{background:#222224;border-radius:8px}#vote .crowd-response{background:#222224}#woot .bottom,#woot.selected{background:#90ad2f}#grab .bottom,#grab.selected{background:#aa74ff}#meh .bottom,#meh.selected{background:#c42e3b}.row:hover{background:linear-gradient(to right,rgba(255,118,118,0) 0,rgba(41,48,124,.27) 100%)!important}#chat .mention .msg{background:linear-gradient(to right,rgba(255,118,118,0) 0,rgba(41,48,124,.27) 100%)}#user-lists .list.room .user .icon-meh{top:-1px!important;right:8px!important;left:auto!important}#user-lists .list.room .user .icon-grab{right:35px}
+/*tooltips*/
+#tooltip span {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+#tooltip .corner {
+    border-top: 10px solid rgba(85, 93, 112, 0);
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid rgba(0, 0, 0, 0.5);
+}
+#tooltip.right .corner {
+    border-top: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid rgba(0, 0, 0, 0.5);
+    border-left: 10px solid rgba(0, 0, 0, 0);
+}
+#tooltip.blue span {
+    background: rgba(0, 156, 221, 0.5);
+    border-radius: 5px;
+}
+#tooltip.blue .corner {
+    border-top: 10px solid rgba(0, 156, 221, 0);
+    border-left: 10px solid rgba(0, 156, 221, 0.5);
+}
+#tooltip.right.blue .corner {
+    border-top: 10px solid rgba(0, 156, 221, 0);
+    border-right: 10px solid rgba(0, 156, 221, 0.5);
+    border-left: 10px solid transparent;
+}
+#tooltip.purple span {
+    background: rgba(146, 90, 255, 0.5);
+    border-radius: 5px;
+}
+#tooltip.purple .corner {
+    border-top: 10px solid rgba(146, 90, 255, 0);
+    border-left: 10px solid rgba(146, 90, 255, 0.5);
+}
+#tooltip.right.purple .corner {
+    border-top: 10px solid rgba(146, 90, 255, 0);
+    border-right: 10px solid rgba(146, 90, 255, 0.5);
+    border-left: 10px solid transparent;
+}
+/*Rcs and p3 edits*/
+#woot-rs {
+    background: rgba(0, 156, 34, 0.35);
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.50s;
+}
+#grab-rs {
+    background: rgba(222, 86, 255, 0.35);
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.50s;
+}
+#meh-rs {
+    background: rgba(255, 39, 54, 0.35);
+    -webkit-animation: fadein 0.25s;
+    -moz-animation: fadein 0.25s;
+    -ms-animation: fadein 0.25s;
+    -o-animation: fadein 0.25s;
+    animation: fadein 0.50s;
+}
+#rcs-appright-button i{
+    opacity: 0;
+}
+#rcs-appright-button.selected , #rcs-appright-button:hover  {
+    background: url("https://dl.dropboxusercontent.com/s/pvf0izt28e62v4y/RCS-selected.png") !important;
+}
+#rcs-appright-button {
+    background: url("https://dl.dropboxusercontent.com/s/abc7diwvn5vjlud/RCS-Grey.png")!important;
+}
+.icon.icon-plugcubed {
+    background-image: url("https://dl.dropboxusercontent.com/s/5n4q27urt2rqa8h/p3.png") !important;
+}
+#p3-settings{
+    background-color: rgba(0, 0, 0, 0.85) !important;
+}
+#p3-settings-custom-colors .header,
+#p3-settings .header{
+    background-color: rgba(36, 44, 62, 0.46) !important;
+}
+/*app menu and communities tab*/
+#app-menu {
+    position: absolute;
+    background: rgba(40, 44, 53, 0.85);
+}
+ #app-menu .list {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.33);
+}
+  
+/*friends list offline color fix*/
+.app-right .friends .list .row.is-admin.is-offline .name span {
+    color: #75AECD; 
+}
+.app-right .friends .list .row.is-ambassador.is-offline .name span {
+    color: #A3C193;
+}
+/*smooth vote*/
+#vote,
+#woot,
+#woot .top,
+#woot .bottom,
+#grab,
+#grab .top,
+#grab .bottom,
+#meh,
+#meh .top,
+#meh .bottom,
+#user-rollover .action{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#user-rollover .actions{
+        -webkit-animation:fadein 1s;
+        -moz-animation:fadein 1s;
+        -ms-animation:fadein 1s;
+        -o-animation:fadein 1s;
+        animation:fadein 1s;
+}
+/*Dj Button*/
+#dj-button {
+   background-color: rgba(0, 0, 0, 0.35) !important;
+}
+#dj-button
+{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#dj-button.is-quit:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+}
+#dj-button.is-leave:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+}
+#dj-button.is-wait:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+}
+#dj-button.is-locked:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(115, 75, 169, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(115, 75, 169, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(115, 75, 169, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(115, 75, 169, 0.35) !important;
+}
+#dj-button.is-join:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+}
+i.icon.icon-join-waitlist-big,
+i.icon.icon-current-dj-white {
+    background-image: url("https://dl.dropboxusercontent.com/s/e2qat1j9h7svd3f/Join.png") !important;
+    background-position: 1px 0px;
+}
+i.icon.icon-leave-waitlist-big,
+i.icon.icon-leave-booth-big  {
+    background-image: url("https://dl.dropboxusercontent.com/s/r9j3jll4llrbxqt/Leave.png") !important;
+    background-position: 1px 0px;
+}
+/*transparency*/
+#toast-notifications .notification .right:hover {
+   background: rgba(0, 0, 0, 0.35) !important;
+}
+#footer {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
+}
+#settings .header {
+   background-color: rgba(28, 31, 37, 0.78) !important;
+}
+#settings {
+   background-color: rgba(10, 10, 10, 0.89) !important;
+}
+#room .app-right,
+#room .app-header{
+   opacity: 0.86 !important;
+}           
+#room .header-panel-bar,
+#header-panel-bar,
+#header-panel-bar.right-meta {
+   background: 0.75;
+}
+#room .history-button,
+#history-button {
+   background-color: 0.75;
+}
+#room .plug-menu {
+   background-color: rgba(40, 44, 53, 0.94) !important;
+}
+#room .plug-menu .legal {
+   background-color: rgba(68, 74, 89, 0.46) !important;
+}
+#room .settings {
+   background-color: rgba(10, 10, 10, 0.89) !important;
+}
+#room .settings .header {
+   background-color: rgba(28, 31, 37, 0.78) !important;
+}
+#app-header .left-meta {
+   color: rgba(40, 44, 53, 0.94) !important;
+}
+#playlist-button {
+   background: rgba(0, 191, 255, 0.8) !important;
+}
+#user-lists .list.staff .group {
+   background: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 1) 100%) !important;
+}
+#plug-menu {
+   background-color: rgba(40, 44, 53, 0.94) !important;
+}
+#plug-menu .legal {
+   background-color: rgba(68, 74, 89, 0.46) !important;
+}
+#user-rollover {
+   background: rgba(0, 0, 0, 0.56) !important;
+}
+#user-rollover .info{
+    background: rgba(0, 0, 0, 0.18);
+}
+#user-rollover .actions .action{
+box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
+}
+.thumb .background {
+    background: rgba(40, 44, 53, 0);
+}
+#room-settings,
+#user-view {
+    background: rgba(0, 0, 0, 0.84) !important;
+}
+#room-settings-menu,
+#user-menu {
+    background: rgba(0, 0, 0, 0.13) !important;
+}
+#user-inventory .cell {
+    background: rgba(28, 31, 37, 0.59) !important;
+}
+#user-inventory .cell:hover {
+    background: rgba(28, 31, 37, 0.80) !important;
+}
+.user-content .grid .cell .top{
+    opacity: 0.6 !important;
+}
+.experience .xp .bar {
+    background: rgba(40, 44, 53, 0.46) !important;
+}
+.experience .xp .bar .progress {
+    background: rgba(0, 156, 221, 0.45) !important;
+}
+#playlist-panel {
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+#playlist-menu {
+    background: rgba(0, 0, 0, 0.2)!important;
+}
+#footer-user .info {
+    background: rgba(40, 44, 53, 0)!important;
+}
+.back {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+.back:hover {
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+#dialog-container.is-preview {
+    background: rgba(0, 0, 0, 0.68) !important;
+}
+.badge-box {
+    background: rgba(40, 44, 53, 0);
+}
+/*smoothing chat*/
+#user-lists .list .user,
+#chat-messages .message,
+#chat-messages .cm{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#chat-messages .cm.rsshit.rs-log-green:hover, #chat-messages .cm.rsshit.rs-log-user-friend-join:hover, #chat-messages .cm.rsshit.rs-log-user-woot:hover {
+    background-color: rgba(144, 173, 47, 0.1);
+}
+#chat-messages .cm.rsshit.rs-log-purple:hover, #chat-messages .cm.rsshit.rs-log-user-grab:hover, #chat-messages .cm.rsshit.rs-log-user-staff-join:hover ,#chat-messages .cm.rsshit.rs-log-song-stats:hover {
+    background-color: rgba(172, 118, 255, 0.1); 
+}
+#chat-messages .cm.rsshit.rs-log-red:hover, #chat-messages .cm.rsshit.rs-log-user-level1-join:hover, #chat-messages .cm.rsshit.rs-log-user-meh:hover {
+    background-color: rgba(196, 46, 59, 0.1);   
+}
+#chat-messages .cm.rsshit.rs-log-orange:hover, #chat-messages .cm.rsshit.rs-log-user-leave:hover, #chat-messages .cm.rsshit.rs-log-history:hover {
+    background-color: rgba(244, 107, 64, 0.1);
+}
+#chat-messages .cm.rsshit.rs-log-usrinfo:hover, #chat-messages .cm.rsshit.rs-log-aqua:hover, #chat-messages .cm.rsshit.rs-log-booth-alert:hover, #chat-messages .cm.rsshit.rs-log-user-join:hover {
+    background-color: rgba(0, 156, 221, 0.1);
+}
+#chat-messages .cm.rsshit.rs-log-earn:hover {
+    background-color: rgba(255, 221, 111, 0.1); 
+}
+#chat-messages .cm.rsshit.rs-log-now-playing:hover {
+    background-color: rgba(87, 132, 197, 0.1);  
+}
+#chat-messages .cm.rsshit.rs-log-yellow:hover{
+    background-color: rgba(246, 255, 116, 0.1);
+}
+#chat-messages .cm.rsshit.rs-log-earn-gold:hover {
+    background-color: rgba(197, 152, 64, 0.1);
+}
+/*hover chat*/
+#chat-messages .cm:not(.log):hover {
+    transform: translate(5px, -5px);
+    background-color: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 0, 194, 0.27) 100%) !important;
+}
+#chat {
+    background-color: rgba(40, 44, 53, 0);
+}
+#room .app-right {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/*EveBot*/
+#user-lists .list .user.id-4567866 .name:after,
+.fromID-4567866 .from .un.clickable:after,
+.cid-4567866 .from .un.clickable:after,
+.id-4567866 .from .un.clickable:after,
+#user-lists .list .user.id-4567866 .name:after,
+.fromID-4567866 .from .un.clickable:after,
+.cid-4567866 .from .un.clickable:after,
+.id-4567866 .from .un.clickable:after {
+    content: url("https://dl.dropboxusercontent.com/s/oucorp8ejssq3sa/Botgrey.png");
+    top: 3px;
+    Left: 3px;
+    position: relative;
+}
+#user-rollover.id-4567866 .meta .username:after,
+#user-lists .list .user.id-4567866:hover .name:after,
+.msg.cid-4567866 .from .un.clickable:hover:after,
+.fromID-4567866 .from .un.clickable:hover:after,
+.id-4567866 .from .un.clickable:hover:after,
+#user-rollover.id-4567866 .meta .username:after,
+#user-lists .list .user.id-4567866:hover .name:after,
+.msg.cid-4567866 .from .un.clickable:hover:after,
+.fromID-4567866 .from .un.clickable:hover:after,
+.id-4567866 .from .un.clickable:hover:after{
+    content: url("https://dl.dropboxusercontent.com/s/6n8jncgoufypt60/Bot.png") !important;
+    top: 3px;
+    Left: 3px;
+    position: relative;
+    transition: .2s linear;
+}
+.fromID-4567866 .from .icon,
+.msg.cid-4567866 .from .icon,
+.id-4567866 .from .icon,
+.fromID-4567866 .from .icon,
+.msg.cid-4567866 .from .icon,
+.id-4567866 .from .icon {
+    top: 3px !important;
+}
+/*animations + transparancy*/
+#user-rollover {
+   background: rgba(0, 0, 0, 0.56) !important;
+}
+#user-rollover .info{
+    background: rgba(0, 0, 0, 0.18);
+}
+#user-rollover.expand.chat .arrow-down {
+   border-left: 8px solid rgba(0, 0, 0, 0.4) !important;
+}
+#user-rollover:not(.chat) .arrow-down {
+   border-top: 8px solid rgba(0, 0, 0, 0.4) !important;
+}
+#user-rollover .action.skip:hover{
+    -webkit-box-shadow:     inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+    -moz-box-shadow:        inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+    -o-box-shadow:          inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+    box-shadow:             inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+}
+#user-rollover .actions .action:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+#user-rollover .actions .action.mod-staff:hover {
+    background: rgba(24, 0, 27, 0.4);
+}
+#user-rollover .actions .action.ignore:hover,
+#user-rollover .actions .action.mod-ban:hover,
+#user-rollover .actions .action.mod-mute:hover {
+    background: rgba(28, 0, 0, 0.4);
+}
+  
+  
+#user-rollover .actions .action.giftsub:hover{
+    background: rgba(68, 45, 0, 0.4);
+}
+#user-rollover .actions .action.giftsub:hover span {
+   text-shadow: 0 0 10px #E59900;
+}
+#user-rollover .actions .action{
+box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
+}
+#user-rollover .meta.subscriber .status span {
+   text-shadow: 0 0 10px #E59900;
+}
+/*----end of user rollover----*/
