@@ -1,7 +1,7 @@
 {
     "room":                     "Toxic",
     "author":                   "NextExit",
-    "icon":                     "http://i.imgur.com/glMyGj1.png",
+    "icon":                     "http://i.imgur.com/HjUM3lk.png",
     "css":                      "https://rawgit.com/NatnatBot/Theme/master/RCS/ccs.css",
     "rules": {
         "allowAutorespond":     true,
