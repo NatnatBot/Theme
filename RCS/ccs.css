@@ -420,4 +420,7 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
 #user-rollover .meta.subscriber .status span {
    text-shadow: 0 0 10px #E59900;
 }
+#chat .cm[data-cid^="14144590-"] .from .un {
+color: #FF9B00;
+}
 /*----end of user rollover----*/
