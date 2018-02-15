@@ -1,8 +1,8 @@
 {
-    "room": "Radiant Music",
-    "author": "Radiant Music",
-    "icon": "https://cdn.radiant.dj/rcs/icons/radiant/logo.png",
-    "css": "https://cdn.radiant.dj/rcs/rs_room.css",
+    "room": "Toxic",
+    "author": "Toxic",
+    "icon": "http://i.imgur.com/HjUM3lk.png",
+    "css": "https://rawgit.com/NatnatBot/Theme/master/RCS/ccs.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
