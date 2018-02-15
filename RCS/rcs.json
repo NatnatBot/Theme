@@ -40,3 +40,8 @@
         "silversubscriber": "https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
     },
     "autocomplete": {
+         },
+    "emotes": {
+        "custom_test": "https://cdn.radiant.dj/rcs/icons/test_custom.png"
+    }
+}
