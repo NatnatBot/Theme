@@ -341,39 +341,39 @@ box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
 /*Lilly*/
 #user-lists .list .user.id-4567866 .name:after,
 .fromID-11070630 .from .un.clickable:after,
-.cid-4567866 .from .un.clickable:after,
-.id-4567866 .from .un.clickable:after,
+.cid- 11070630.from .un.clickable:after,
+.id-11070630 .from .un.clickable:after,
 #user-lists .list .user.id-4567866 .name:after,
-.fromID-4567866 .from .un.clickable:after,
-.cid-4567866 .from .un.clickable:after,
-.id-4567866 .from .un.clickable:after {
+.fromID-11070630 .from .un.clickable:after,
+.cid-11070630 .from .un.clickable:after,
+.id-11070630 .from .un.clickable:after {
     content: url("https://dl.dropboxusercontent.com/s/oucorp8ejssq3sa/Botgrey.png");
     top: 3px;
     Left: 3px;
     position: relative;
 }
-#user-rollover.id-4567866 .meta .username:after,
+#user-rollover.id-11070630 .meta .username:after,
 #user-lists .list .user.id-4567866:hover .name:after,
-.msg.cid-4567866 .from .un.clickable:hover:after,
-.fromID-4567866 .from .un.clickable:hover:after,
-.id-4567866 .from .un.clickable:hover:after,
-#user-rollover.id-4567866 .meta .username:after,
+.msg.cid-11070630 .from .un.clickable:hover:after,
+.fromID-11070630 .from .un.clickable:hover:after,
+.id-11070630 .from .un.clickable:hover:after,
+#user-rollover.id-11070630 .meta .username:after,
 #user-lists .list .user.id-4567866:hover .name:after,
-.msg.cid-4567866 .from .un.clickable:hover:after,
-.fromID-4567866 .from .un.clickable:hover:after,
-.id-4567866 .from .un.clickable:hover:after{
+.msg.cid-11070630 .from .un.clickable:hover:after,
+.fromID-11070630 .from .un.clickable:hover:after,
+.id-11070630 .from .un.clickable:hover:after{
     content: url("https://dl.dropboxusercontent.com/s/6n8jncgoufypt60/Bot.png") !important;
     top: 3px;
     Left: 3px;
     position: relative;
     transition: .2s linear;
 }
-.fromID-4567866 .from .icon,
-.msg.cid-4567866 .from .icon,
-.id-4567866 .from .icon,
-.fromID-4567866 .from .icon,
-.msg.cid-4567866 .from .icon,
-.id-4567866 .from .icon {
+.fromID-11070630.from .icon,
+.msg.cid-11070630 .from .icon,
+.id-11070630 .from .icon,
+.fromID-11070630 .from .icon,
+.msg.cid-11070630 .from .icon,
+.id-11070630 .from .icon {
     top: 3px !important;
 }
 /*animations + transparancy*/
