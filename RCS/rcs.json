@@ -37,10 +37,10 @@
         "bouncer":              "http://i.imgur.com/Y1kIiS9.png",
         "rdj":                  "http://i.imgur.com/4YBwrbr.png",
         "subscriber":           null,
-        "silversubscriber":     "https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
+        "silversubscriber":     "https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png",
     },
     "autocomplete": [],
     "emotes": {
-        "custom_test": "https://cdn.radiant.dj/rcs/icons/test_custom.png"
+        "custom_test": "https://cdn.radiant.dj/rcs/icons/test_custom.png",
     }
 }
