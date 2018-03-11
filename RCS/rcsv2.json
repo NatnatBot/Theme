@@ -2,7 +2,7 @@
     "room": "Toxic",
     "author": "Toxic",
     "icon": "http://i.imgur.com/HjUM3lk.png",
-    "css": "https://github.com/NatnatBot/Theme/blob/master/RCS/ccsv2.css",
+    "css": "https://rawgit.com/NatnatBot/Theme/master/RCS/ccsv2.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
