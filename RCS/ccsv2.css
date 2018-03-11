@@ -240,3 +240,75 @@ background: #c42e3b;
     Left: 3px;
     position: relative;
 }
+
+#user-rollover.id-11070630 .meta .username:after,
+#user-lists .list .user.id-11070630:hover .name:after,
+.msg.cid-11070630 .from .un.clickable:hover:after,
+.fromID-11070630 .from .un.clickable:hover:after,
+.id-4567866 .from .un.clickable:hover:after,
+#user-rollover.id-11070630 .meta .username:after,
+#user-lists .list .user.id-11070630:hover .name:after,
+.msg.cid-11070630 .from .un.clickable:hover:after,
+.fromID-11070630 .from .un.clickable:hover:after,
+.id-11070630 .from .un.clickable:hover:after{
+    content: url("https://dl.dropboxusercontent.com/s/6n8jncgoufypt60/Bot.png") !important;
+    top: 3px;
+    Left: 3px;
+    position: relative;
+    transition: .2s linear;
+}
+.fromID-11070630 .from .icon,
+.msg.cid-11070630 .from .icon,
+.id-11070630 .from .icon,
+.fromID-11070630 .from .icon,
+.msg.cid-11070630 .from .icon,
+.id-11070630 .from .icon {
+    top: 3px !important;
+}
+
+/*smoothing chat*/
+#user-lists .list .user,
+#chat-messages .message,
+#chat-messages .cm{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#chat-messages .cm.rsshit.rs-log-green:hover, #chat-messages .cm.rsshit.rs-log-user-friend-join:hover, #chat-messages .cm.rsshit.rs-log-user-woot:hover {
+    background-color: rgba(144, 173, 47, 0.1);
+}
+#chat-messages .cm.rsshit.rs-log-purple:hover, #chat-messages .cm.rsshit.rs-log-user-grab:hover, #chat-messages .cm.rsshit.rs-log-user-staff-join:hover ,#chat-messages .cm.rsshit.rs-log-song-stats:hover {
+    background-color: rgba(172, 118, 255, 0.1); 
+}
+#chat-messages .cm.rsshit.rs-log-red:hover, #chat-messages .cm.rsshit.rs-log-user-level1-join:hover, #chat-messages .cm.rsshit.rs-log-user-meh:hover {
+    background-color: rgba(196, 46, 59, 0.1);   
+}
+#chat-messages .cm.rsshit.rs-log-orange:hover, #chat-messages .cm.rsshit.rs-log-user-leave:hover, #chat-messages .cm.rsshit.rs-log-history:hover {
+    background-color: rgba(244, 107, 64, 0.1);
+}
+#chat-messages .cm.rsshit.rs-log-usrinfo:hover, #chat-messages .cm.rsshit.rs-log-aqua:hover, #chat-messages .cm.rsshit.rs-log-booth-alert:hover, #chat-messages .cm.rsshit.rs-log-user-join:hover {
+    background-color: rgba(0, 156, 221, 0.1);
+}
+#chat-messages .cm.rsshit.rs-log-earn:hover {
+    background-color: rgba(255, 221, 111, 0.1); 
+}
+#chat-messages .cm.rsshit.rs-log-now-playing:hover {
+    background-color: rgba(87, 132, 197, 0.1);  
+}
+#chat-messages .cm.rsshit.rs-log-yellow:hover{
+    background-color: rgba(246, 255, 116, 0.1);
+}
+#chat-messages .cm.rsshit.rs-log-earn-gold:hover {
+    background-color: rgba(197, 152, 64, 0.1);
+}
+/*hover chat*/
+#chat-messages .cm:not(.log):hover {
+    transform: translate(5px, -5px);
+    background-color: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 0, 194, 0.27) 100%) !important;
+}
+#chat {
+    background-color: rgba(40, 44, 53, 0);
+}
+#room .app-right {
+    background-color: rgba(0, 0, 0, 0.7);
