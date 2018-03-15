@@ -1,7 +1,7 @@
 {
     "room": "Toxic",
     "author": "Toxic",
-    "icon": "http://i.imgur.com/HjUM3lk.png",
+    "icon": null,
     "css": "https://rawgit.com/NatnatBot/Theme/master/RCS/ccsv2.css",
     "rules": {
         "allowAutorespond": true,
