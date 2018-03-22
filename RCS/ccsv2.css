@@ -312,3 +312,9 @@ background: #c42e3b;
 }
 #room .app-right {
     background-color: rgba(0, 0, 0, 0.7);
+    
+}
+/*NextExit alt Chat Color*/
+#chat .cm[data-cid^="14144590-"] .from .un {
+color: #42A5DC;
+}
