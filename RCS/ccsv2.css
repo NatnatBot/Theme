@@ -317,4 +317,51 @@ background: #c42e3b;
 /*NextExit alt Chat Color*/
 #chat .cm[data-cid^="14144590-"] .from .un {
 color: #42A5DC;
+    
 }
+/*User Menu*/
+}
+#user-menu, #room-settings-menu, #playlist-menu {
+    background: linear-gradient(to right, hsla(210,10%,40%,0), hsla(311, 10%, 50%, 0.2));
+}
+#user-view, #dashboard, #room-settings, #media-panel, #playlist-panel, #history-panel {
+    background: linear-gradient(hsla(293, 10%, 7%, 0.9), hsla(284, 10%, 5%, 0.9)) !important;
+}
+#user-menu .item:not(.selected), #room-settings-menu .item:not(.selected) {
+    color: hsla(275, 10%, 60%, 1);
+}
+#user-menu .item:not(.selected):hover, #room-settings-menu .item:not(.selected):hover {
+    color: hsla(313, 10%, 80%, 1);
+}
+#user-menu .item .count, #room-settings-menu .item .count {
+    color: #eee; /* Fix for hover color changing count color by inheritance */
+}
+#user-menu .item:hover, #room-settings-menu .item:hover {
+    background: linear-gradient(hsla(271, 36%, 40%, 0.46), hsla(285, 31%, 30%, 0.49));
+    box-shadow: inset 0 0 4px 1px hsla(0,0%,100%,.2);
+}
+#user-menu .item:hover i, #room-settings-menu .item:hover i {
+    filter: brightness(200%);
+}
+#user-menu .item.selected, #room-settings-menu .item.selected {
+    background: linear-gradient(hsl(270, 33%, 30%), hsl(270, 35%, 30%));
+    box-shadow: inset 0 0 4px 1px hsla(277, 100%, 66%, 0.4);
+}
+#room-settings .general-settings button, #room-settings .general-settings .option.enabled button.off {
+    background: linear-gradient(hsla(305, 5%, 20%, 1), hsla(290, 5%, 10%, 1)) !important;
+    box-shadow: inset 0 0 2px hsla(0,0%,100%,.5) !important;
+}
+#room-settings .general-settings button:hover, #room-settings .general-settings .option.enabled button.off:hover {
+    background: linear-gradient(hsla(269, 50%, 40%, 0.61), hsla(270, 50%, 30%, 0.52)) !important;
+    box-shadow: inset 0 0 2px hsla(0,0%,100%,.5) !important;
+}
+#room-settings .general-settings button.off, #room-settings .general-settings .option.enabled button.on {
+    background: linear-gradient(hsla(270, 33%, 30%), hsla(270, 35%, 30%)) !important;
+    box-shadow: inset 0 0 2px hsla(0,0%,100%,.5) !important;
+}
+#the-user-profile .notifications.section .row {
+    border-radius: 10px;
+    background: linear-gradient(hsl(262, 16%, 20%), hsl(256, 20%, 14%));
+}
+#the-user-profile .notifications .row .timestamp {
+    color: rgba(17, 19, 23, 0.32);;
